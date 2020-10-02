@@ -7,10 +7,7 @@ class App extends React.Component{
     render() {
         return (
             <div className='container'>
-                <CheckboxListOld options={['One', 'Two', 'Three']}/>
                 <Popular />
-              
-              {/*<CheckboxList options={['One', 'Two', 'Three']}/> */}  
             </div>
         )
     }
